@@ -1,4 +1,4 @@
-var withProxy = 'PROXY 10.203.15.52:3128; SOCKS 10.203.15.52:3128';
+var withProxy = 'PROXY 10.103.240.200:3128; SOCKS 10.203.15.52:3128';
 
 var noProxy = 'DIRECT';
 
@@ -6,7 +6,15 @@ var targetWithProxy = [ 'google.com',
                         'facebook.com',
                         'twitter.com',
                         'youtube.com',
-                        'inoreader.com'
+                        'inoreader.com',
+                        'twimg.com',
+                        'fbcdn.net',
+                        'ytimg.com',
+                        'ggpht.com',
+                        'gstatic.com',
+                        'googleapis.com',
+                        'googleusercontent.com',
+                        'googlevideo.com'
                     ];
 
 function generate_regx_proxy_list(target_list){
