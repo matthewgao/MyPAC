@@ -1,4 +1,4 @@
-var withProxy = 'PROXY 10.103.240.200:3128; SOCKS 10.103.240.200:3128';
+var withProxy = 'SOCKS5 127.0.0.1:1080';
 
 var noProxy = 'DIRECT';
 
